@@ -23,7 +23,7 @@ Use cmake with preset 'lldb' to build it in debug. Additional build presets are 
 
 ```
 # from the root of the repository
-cmake --preset lldb
+cmake --preset lldb -DCMAKE_C_COMPILER=clang-20 -DCMAKE_CXX_COMPILER=clang++-20
 cd build/
 ninja
 ```
