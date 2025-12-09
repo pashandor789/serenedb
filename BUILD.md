@@ -125,6 +125,6 @@ Also VSCode provides a convinent way to debug code. So there are only two steps 
 ```
 3) Click `Run And Debug` section on the left sidebar or use a combination of keys: shift + ctrl + d / shift + cmd + d for macOS.
 
-This will add two type of actions - `attach` for attaching to sereneDB and `iresearch` for unit-test debbuging (specify there every filter you want).
+This will add two type of actions - `attach` for attaching to sereneDB and `iresearch` for unit-test debbuging (specify there every gtest_filter or any other arg you want).
 
 There's an example of creation these tests and attaching to the sereneDB via debugger:
