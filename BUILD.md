@@ -127,7 +127,7 @@ Also VSCode provides a convinent way to debug code. There're some steps to make 
 
 This will add two type of actions - `attach` for attaching to the running sereneDB and `iresearch` to launch the unit-test and attach to it. You can click the down arrow to the right of the green triangle and select the desired option from the drop-down list. 
 
-There's an example of the creation of these actions and attaching to the sereneDB via debugger:
+There's an example of the creation of these actions and attaching to the SereneDB via debugger:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fa246b5d-ebea-4598-8705-c252fbff5a0d" width="800" style="border-radius: 8px;">
