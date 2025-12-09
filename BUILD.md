@@ -24,4 +24,6 @@ Use cmake with preset 'lldb' to build it in debug. Additional build presets are 
 ```
 # from the root of the repository
 cmake --preset lldb
+cd build/
+ninja
 ```
