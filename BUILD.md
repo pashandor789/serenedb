@@ -67,7 +67,7 @@ Also it's possible to specify a filter:
 
 # Convenient work in VSCode 
 
-We have a VScode profile which has already all the extension which are needed. Here it is: 
+We have a VScode profile which has already all the extension which are needed. Here is a config of this: 
 ```json
 {
   "name": "SereneDB C++ template",
@@ -76,4 +76,10 @@ We have a VScode profile which has already all the extension which are needed. H
 }
 ```
 
+1) Just create a `serenedb-cpp.code-profile` file in the root and paste there the profile-config. 
+2) Open VSCode command pallete via default combination : ctrl + shift + p / cmd + shift + p for macOS and write there `Open Profiles` and click on `Preferences: Open Profiles (UI)` option.
+3) In the UI of the profiles click on the down arrow which is located left to `New Profile` button.
+4) Choose import profile and specify path to the `serenedb-cpp.code-profile` .
+5) Select profile and switch to it.
 
+Now you can use C++ code navigation by ctrl + click (cmd + click for macOS)
