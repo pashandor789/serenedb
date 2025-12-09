@@ -44,9 +44,16 @@ It's possible to connect it via psql: `psql -h localhost -p 7777 -U postgres`
 
 Run sql-logic tests (requires SereneDB to be running):
 
-`./tests/sqllogic/run.sh --single-port 7777 --debug true`  
-or it's possible to specify a filter for tests  
-`./tests/sqllogic/run.sh --single-port 7777 --test 'tests/sqllogic/any/pg/simple/*.test' --debug true`  
+Launch all the tests
+```bash
+./tests/sqllogic/run.sh --single-port 7777 --debug true`
+```
+
+Also it's possible to specify a filter
+
+```bash
+./tests/sqllogic/run.sh --single-port 7777 --test 'tests/sqllogic/any/pg/simple/*.test' --debug true
+```
 
 
 
