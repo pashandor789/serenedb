@@ -76,6 +76,8 @@ We have a VScode profile which has already all the extension which are needed. H
 }
 ```
 
+There's a little gif guide with action list below: 
+
 1) Just create a `serenedb-cpp.code-profile` file in the root and paste there the profile-config. 
 2) Open VSCode command pallete via default combination : ctrl + shift + p / cmd + shift + p for macOS and write there `Open Profiles` and click on `Preferences: Open Profiles (UI)` option.
 3) In the UI of the profiles click on the down arrow which is located left to `New Profile` button.
