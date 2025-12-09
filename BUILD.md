@@ -46,20 +46,20 @@ Commands in this section are supposed to be executed from the root of the reposi
 
 ### Sql-logic tests
 
-The tests requires SereneDB to be running
+The tests requires SereneDB to be running.
 
-Launch all the tests
+Launch all the tests:
 ```bash
 ./tests/sqllogic/run.sh --single-port 7777 --debug true`
 ```
 
-Also it's possible to specify a filter
+Also it's possible to specify a filter:
 
 ```bash
 ./tests/sqllogic/run.sh --single-port 7777 --test 'tests/sqllogic/any/pg/simple/*.test' --debug true
 ```
 
-### C++ unit tests:
+### C++ unit tests
 
 ```bash
 ./build/bin/iresearch-tests "--gtest_filter=*PhraseFilterTestCase*"
