@@ -88,5 +88,6 @@ There's a little gif guide with action list below:
 3) In the UI of the profiles click on the down arrow which is located left to `New Profile` button.
 4) Choose import profile and specify path to the `serenedb-cpp.code-profile` .
 5) Select profile and switch to it.
+6) If a message appears offering to download the clangd server, accept it.
 
 Now you can use C++ code navigation by ctrl + click (cmd + click for macOS)
