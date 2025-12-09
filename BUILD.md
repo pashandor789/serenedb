@@ -84,20 +84,20 @@ There's a little gif guide with an action list below:
   <img src="https://github.com/user-attachments/assets/02f2e2f9-b9d6-407d-832a-2517254dee98" width="800" style="border-radius: 8px;">
 </p>
 
-0) Open folder with SereneDB.
+0) Open a folder with SereneDB.
 1) Just create a `serenedb-cpp.code-profile` file in the root and paste there the profile-config. 
-2) Open VSCode command pallete via default combination : ctrl + shift + p / cmd + shift + p for macOS.
-3) Write in the pallete `Open Profiles` and click an `Preferences: Open Profiles (UI)` option.
-4) In the UI of the profiles click on the down arrow which is located left to `New Profile` button.
-5) Choose import profile and specify path to the `serenedb-cpp.code-profile` .
-6) Select profile and switch to it.
+2) Open a VSCode command pallete via default combination : ctrl + shift + p / cmd + shift + p for macOS.
+3) Write in the pallete `Open Profiles` and choose an `Preferences: Open Profiles (UI)` option.
+4) In the UI of the profiles click on the down arrow which is located left to the `New Profile` button.
+5) Choose import profile and specify a path to the `serenedb-cpp.code-profile` .
+6) Create the profile and switch to it.
 7) If a message appears offering to download the clangd server, accept it.
 
 Now you can use C++ code navigation by ctrl + click (cmd + click for macOS)!
 
 ## Debug
 
-Also VSCode provides a convinent way to debug code. So there are only two steps to make it work:
+Also VSCode provides a convinent way to debug code. There're some steps to make it work:
 
 1) Create a `.vscode/launch.json` file.
 2) Paste there a config:
@@ -125,9 +125,9 @@ Also VSCode provides a convinent way to debug code. So there are only two steps 
 ```
 3) Click `Run And Debug` section on the left sidebar or use a combination of keys: shift + ctrl + d / shift + cmd + d for macOS.
 
-This will add two type of actions - `attach` for attaching to sereneDB and `iresearch` for unit-test debbuging (specify there every gtest_filter or any other arg you want).
+This will add two type of actions - `attach` for attaching to sereneDB and `iresearch` for unit-test debbuging. You can add there yours action and switch to it via clicking right to the green triangle.
 
-There's an example of creation these tests and attaching to the sereneDB via debugger:
+There's an example of the creation of these actions and attaching to the sereneDB via debugger:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fa246b5d-ebea-4598-8705-c252fbff5a0d" width="800" style="border-radius: 8px;">
