@@ -133,3 +133,5 @@ There's an example of creation these tests and attaching to the sereneDB via deb
   <img src="https://github.com/user-attachments/assets/fa246b5d-ebea-4598-8705-c252fbff5a0d" width="800" style="border-radius: 8px;">
 </p>
 
+Thank you for your contribution <img width="245" height="240" alt="image" src="https://github.com/user-attachments/assets/6358ce9e-c50c-458b-832a-ad6cd1e50c5d" />
+
