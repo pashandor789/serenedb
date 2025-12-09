@@ -67,6 +67,8 @@ Also it's possible to specify a filter:
 
 # Convenient work in VSCode 
 
+## Importing a profile
+
 We have a VScode profile which has already all the extension which are needed. Here is a config of this: 
 ```json
 {
