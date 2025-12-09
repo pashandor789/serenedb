@@ -50,7 +50,7 @@ The tests requires SereneDB to be running.
 
 Launch all the tests:
 ```bash
-./tests/sqllogic/run.sh --single-port 7777 --debug true`
+./tests/sqllogic/run.sh --single-port 7777 --debug true
 ```
 
 Also it's possible to specify a filter:
