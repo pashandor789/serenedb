@@ -82,7 +82,7 @@ There's a little gif guide with action list below:
   <img src="https://github.com/user-attachments/assets/02f2e2f9-b9d6-407d-832a-2517254dee98" width="800" style="border-radius: 8px;">
 </p>
 
-0) Open folder with SereneDB
+0) Open folder with SereneDB.
 1) Just create a `serenedb-cpp.code-profile` file in the root and paste there the profile-config. 
 2) Open VSCode command pallete via default combination : ctrl + shift + p / cmd + shift + p for macOS and write there `Open Profiles` and click on `Preferences: Open Profiles (UI)` option.
 3) In the UI of the profiles click on the down arrow which is located left to `New Profile` button.
