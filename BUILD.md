@@ -34,7 +34,7 @@ Now you can launch serenedb:
 
 ```
 # from the root of the repository
-./build/bin/serened ./build_dir --server.endpoint='tcp://0.0.0.0:8032' --server.endpoint='pgsql+tcp://0.0.0.0:7777'
+./build/bin/serened ./build_dir --server.endpoint='pgsql+tcp://0.0.0.0:7777'
 ```
 
 It's possible to connect it via psql: `psql -h localhost -p 7777 -U postgres`
@@ -44,9 +44,9 @@ It's possible to connect it via psql: `psql -h localhost -p 7777 -U postgres`
 
 Run sql-logic tests (requires SereneDB to be running):
 
-`./tests/sqllogic/run.sh --single-port 7777 --debug true`
-or it's possible to specify a filter for tests
-`./tests/sqllogic/run.sh --single-port 7777 --test 'tests/sqllogic/any/pg/simple/*.test' --debug true`
+`./tests/sqllogic/run.sh --single-port 7777 --debug true`  
+or it's possible to specify a filter for tests  
+`./tests/sqllogic/run.sh --single-port 7777 --test 'tests/sqllogic/any/pg/simple/*.test' --debug true`  
 
 
 
