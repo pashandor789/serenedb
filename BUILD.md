@@ -136,6 +136,6 @@ There's an example of creation these tests and attaching to the sereneDB via deb
 # Thank you for your contribution <3
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/86dedb73-478f-4344-9dcb-320200435b99" width="800" style="border-radius: 8px;">
+  <img src="https://github.com/user-attachments/assets/86dedb73-478f-4344-9dcb-320200435b99" width="100" style="border-radius: 8px;">
 </p>
 
