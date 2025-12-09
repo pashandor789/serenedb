@@ -3,7 +3,7 @@
 ## Fork the repository
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/82327bc5-331e-49af-8b5c-717f563b67d4" width="400" style="border-radius: 8px;">
+  <img src="https://github.com/user-attachments/assets/82327bc5-331e-49af-8b5c-717f563b67d4" width="800" style="border-radius: 8px;">
 </p>
 
 ## Clone the repository
