@@ -10,12 +10,18 @@
 
 ```bash
 # specify github username
-USERNAME="your_github_username_here"
-git clone git@github.com:${USERNAME}/serenedb.git
+GITHUB_USERNAME="your_github_username_here"
+git clone git@github.com:${GITHUB_USERNAME}/serenedb.git
 cd serenedb
 git remote add upstream git@github.com:serenedb/serenedb.git
 git submodule update --init --recursive --jobs=$(nproc)
 ```
+
+## Build Prerequisites
+
+1) Compiler: clang-20 / clang++-20
+2) Build system: Ninja  
+3) CMake >= 3.26  
 
 ## Build
 
@@ -28,9 +34,9 @@ cd build/
 ninja
 ```
 
-## Launch 
+## Launch
 
-Now you can launch serenedb:
+Now you can launch serened binary:
 
 ```
 # from the root of the repository
@@ -40,7 +46,7 @@ Now you can launch serenedb:
 It's possible to connect it via psql: `psql -h localhost -p 7777 -U postgres`
 
 
-## Test 
+## Test
 
 Commands in this section are supposed to be executed from the root of the repository.
 
@@ -65,11 +71,11 @@ Also it's possible to specify a filter:
 ./build/bin/iresearch-tests "--gtest_filter=*PhraseFilterTestCase*"
 ```
 
-# Convenient work in VSCode 
+# Convenient work in VSCode
 
 ## Importing a profile
 
-We have a VScode profile which has already all the extension which are needed (for instance for code navigation). Here is a config of this: 
+We have a VScode profile which has already all the extensions which are needed (for instance for code navigation). Here is a config of this:
 ```json
 {
   "name": "SereneDB C++ template",
@@ -78,18 +84,18 @@ We have a VScode profile which has already all the extension which are needed (f
 }
 ```
 
-There's a little gif guide with an action list below: 
+There's a gif guide with an action list below:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/02f2e2f9-b9d6-407d-832a-2517254dee98" width="800" style="border-radius: 8px;">
 </p>
 
 0) Open a folder with SereneDB.
-1) Just create a `serenedb-cpp.code-profile` file in the root and paste there the profile-config. 
-2) Open a VSCode command pallete via default combination : ctrl + shift + p / cmd + shift + p for macOS.
-3) Write in the pallete `Open Profiles` and choose an `Preferences: Open Profiles (UI)` option.
+1) Just create a `serenedb-cpp.code-profile` file in the root and paste the profile-config there.
+2) Open a VSCode command palette via default combination : ctrl + shift + p / cmd + shift + p for macOS.
+3) Write in the palette `Open Profiles` and choose an `Preferences: Open Profiles (UI)` option.
 4) In the UI of the profiles click on the down arrow which is located left to the `New Profile` button.
-5) Choose import profile and specify a path to the `serenedb-cpp.code-profile` .
+5) Choose import profile and specify a path to the `serenedb-cpp.code-profile`.
 6) Create the profile and switch to it.
 7) If a message appears offering to download the clangd server, accept it.
 
@@ -97,7 +103,7 @@ Now you can use C++ code navigation by ctrl + click (cmd + click for macOS)!
 
 ## Debug
 
-Also VSCode provides a convinent way to debug code. There're some steps to make it work:
+Also VSCode provides a convenient way to debug code. There're some steps to make it work:
 
 1) Create a `.vscode/launch.json` file.
 2) Paste there a config:
@@ -125,7 +131,7 @@ Also VSCode provides a convinent way to debug code. There're some steps to make 
 ```
 3) Click `Run And Debug` section on the left sidebar or use a combination of keys: shift + ctrl + d / shift + cmd + d for macOS.
 
-This will add two type of actions - `attach` for attaching to the running sereneDB and `iresearch` to launch the unit-test and attach to it. You can click the down arrow to the right of the green triangle and select the desired option from the drop-down list. 
+This will add two types of actions - `attach` for attaching to the running SereneDB and `iresearch` to launch the unit-test and attach to it. You can click the down arrow to the right of the green triangle and select the desired option from the drop-down list.
 
 There's an example of the creation of these actions and attaching to the SereneDB via debugger:
 
