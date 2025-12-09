@@ -44,7 +44,9 @@ It's possible to connect it via psql: `psql -h localhost -p 7777 -U postgres`
 
 Commands in this section are supposed to be executed from the root of the repository.
 
-### Sql-logic tests (requires SereneDB to be running)
+### Sql-logic tests
+
+The tests requires SereneDB to be running
 
 Launch all the tests
 ```bash
@@ -59,7 +61,7 @@ Also it's possible to specify a filter
 
 ### C++ unit tests:
 
-```
+```bash
 ./build/bin/iresearch-tests "--gtest_filter=*PhraseFilterTestCase*"
 ```
 
