@@ -78,7 +78,7 @@ We have a VScode profile which has already all the extension which are needed. H
 }
 ```
 
-There's a little gif guide with action list below: 
+There's a little gif guide with an action list below: 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/02f2e2f9-b9d6-407d-832a-2517254dee98" width="800" style="border-radius: 8px;">
