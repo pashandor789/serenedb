@@ -128,3 +128,8 @@ Also VSCode provides a convinent way to debug code. So there are only two steps 
 This will add two type of actions - `attach` for attaching to sereneDB and `iresearch` for unit-test debbuging (specify there every gtest_filter or any other arg you want).
 
 There's an example of creation these tests and attaching to the sereneDB via debugger:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fa246b5d-ebea-4598-8705-c252fbff5a0d" width="800" style="border-radius: 8px;">
+</p>
+
