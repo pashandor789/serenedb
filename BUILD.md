@@ -94,3 +94,37 @@ There's a little gif guide with action list below:
 7) If a message appears offering to download the clangd server, accept it.
 
 Now you can use C++ code navigation by ctrl + click (cmd + click for macOS)!
+
+## Debug
+
+Also VSCode provides a convinent way to debug code. So there are only two steps to make it work:
+
+1) Create a `.vscode/launch.json` file.
+2) Paste there a config:
+```json
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "attach",
+      "name": "attach-to-serened",
+      "program": "${workspaceFolder}/build/bin/serened",
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "iresearch",
+      "program": "${workspaceFolder}/build/bin/iresearch-tests",
+      "args": [
+        "--gtest_filter=*PhraseFilterTestCase*"
+      ],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
+```
+3) Click `Run And Debug` section on the left sidebar or use a combination of keys: shift + ctrl + d / shift + cmd + d for macOS.
+
+This will add two type of actions - `attach` for attaching to sereneDB and `iresearch` for unit-test debbuging (specify there every filter you want).
+
+There's an example of creation these tests and attaching to the sereneDB via debugger:
