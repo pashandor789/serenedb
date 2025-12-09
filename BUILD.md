@@ -1,9 +1,9 @@
 # Getting started
 
-## Fork the repository and copy fork's repo link
+## Fork the repository
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e15a45f7-b567-4af0-975b-1712d0395b28" width="400" style="border-radius: 8px;">
+  <img src="https://github.com/user-attachments/assets/82327bc5-331e-49af-8b5c-717f563b67d4" width="400" style="border-radius: 8px;">
 </p>
 
 ## Clone the repository
