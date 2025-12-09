@@ -86,10 +86,11 @@ There's a little gif guide with action list below:
 
 0) Open folder with SereneDB.
 1) Just create a `serenedb-cpp.code-profile` file in the root and paste there the profile-config. 
-2) Open VSCode command pallete via default combination : ctrl + shift + p / cmd + shift + p for macOS and write there `Open Profiles` and click on `Preferences: Open Profiles (UI)` option.
-3) In the UI of the profiles click on the down arrow which is located left to `New Profile` button.
-4) Choose import profile and specify path to the `serenedb-cpp.code-profile` .
-5) Select profile and switch to it.
-6) If a message appears offering to download the clangd server, accept it.
+2) Open VSCode command pallete via default combination : ctrl + shift + p / cmd + shift + p for macOS.
+3) Write in the pallete `Open Profiles` and click an `Preferences: Open Profiles (UI)` option.
+4) In the UI of the profiles click on the down arrow which is located left to `New Profile` button.
+5) Choose import profile and specify path to the `serenedb-cpp.code-profile` .
+6) Select profile and switch to it.
+7) If a message appears offering to download the clangd server, accept it.
 
-Now you can use C++ code navigation by ctrl + click (cmd + click for macOS)
+Now you can use C++ code navigation by ctrl + click (cmd + click for macOS)!
