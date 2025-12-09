@@ -46,7 +46,7 @@ Commands in this section are supposed to be executed from the root of the reposi
 
 ### Sql-logic tests
 
-The tests requires SereneDB to be running.
+The tests require a running SereneDB instance and pre-downloaded cargo.
 
 Launch all the tests:
 ```bash
