@@ -42,6 +42,8 @@ It's possible to connect it via psql: `psql -h localhost -p 7777 -U postgres`
 
 ## Test 
 
+Commands in this section are supposed to be executed from the root of the repository.
+
 Run sql-logic tests (requires SereneDB to be running):
 
 Launch all the tests
@@ -55,6 +57,10 @@ Also it's possible to specify a filter
 ./tests/sqllogic/run.sh --single-port 7777 --test 'tests/sqllogic/any/pg/simple/*.test' --debug true
 ```
 
+Run C++ unit tests:
 
+```
+./build/bin/iresearch-tests "--gtest_filter=*PhraseFilterTestCase*"
+```
 
 
